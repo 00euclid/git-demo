@@ -1,1 +1,1 @@
-alert("Hello");
+document.getElementsByClassName("greeter")[0].addEventListener("click", () => alert("hello"))
