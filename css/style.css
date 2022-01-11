@@ -19,23 +19,12 @@ h1.title {
     font-weight: 700;
 }
 
-p.warning {
-    width: 30rem;
-    font-size: 1.05em;
-    font-weight: 500;
-    padding: 20px 20px;
-    text-align: center;
-}
-
 p.info {
     width: 30rem;
     font-size: 1.05em;
     font-weight: 500;
     padding: 20px 20px;
     text-align: center;
-    color: ff1212;
-    border-radius: 1.5rem;
-    background: rgba(255, 50, 50, 0.2);
 }
 
 @media screen and (max-width: 35rem) {
