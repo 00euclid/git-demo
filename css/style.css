@@ -19,6 +19,20 @@ h1.title {
     font-weight: 700;
 }
 
+p.info {
+    width: 30rem;
+    font-size: 1.05em;
+    font-weight: 500;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 35rem) {
+    p.info {
+        width: 100%;
+    }
+}
+
 button.greeter {
     border: none;
     background: #24baa1;
