@@ -9,6 +9,7 @@ const greet = () => {
         status = document.querySelector(".status.failure");
     }
 
+    Array.from(document.querySelectorAll(".status")).forEach(sbox => sbox.classList.remove("visible"));
     status.classList.add("visible");
 }
 
