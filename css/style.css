@@ -31,6 +31,10 @@ small.status {
     display: none;
 }
 
+small.status.visible {
+    display: block;
+}
+
 @media screen and (max-width: 35rem) {
     p.info {
         width: 100%;
